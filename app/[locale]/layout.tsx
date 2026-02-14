@@ -53,9 +53,9 @@ export default async function RootLayout({
       <body
         className={`${noto.variable} ${khebrat.variable} font-khebrat antialiased`}
       >
-        <ScrollNavbar className="fixed top-10 left-10 z-99 transition-transform duration-500">
+        <ScrollNavbar className="fixed top-[5%] left-[5%] z-99 transition-transform duration-500 shadow-2xl">
           <Button asChild variant={'outline'} size={'icon-lg'}>
-            <Link scroll={false} href={locale === "en" ? "/ar" : "/en"} className="bg-black text-xl text-white  px-8 py-3 rounded-xl">
+            <Link scroll={false} href={locale === "en" ? "/ar" : "/en"} className="bg-black text-xl text-white text-center px-8 py-3 rounded-xl">
               {locale === "en" ? "العربية" : "English"}
             </Link>
           </Button>
