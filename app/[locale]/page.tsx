@@ -12,7 +12,6 @@ import MailIcon from "@/components/icons/mail";
 import { notFound } from "next/navigation";
 
 export default async function Home({ params }: { params: Promise<{ locale: 'en' | 'ar' }> }) {
-    await new Promise(resolve => setTimeout(resolve, 5000)); // Simulate loading delay
     const { locale } = await params;
     if (!['en', 'ar'].includes(locale)) {
         notFound();
