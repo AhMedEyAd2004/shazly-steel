@@ -32,7 +32,7 @@ export function ScrollNavbar({ children, className, ...props }:
     return (
         <nav
             className={cn([className,
-                isVisible ? 'translate-y-0' : '-translate-y-[200%]'])}
+                isVisible ? 'translate-y-0' : '-translate-y-[210%]'])}
             {...props}
         >
             {children}
