@@ -9,7 +9,6 @@ import {
 import Autoplay from "embla-carousel-autoplay"
 import Image from "next/image"
 import { useRef } from "react"
-import { Card, CardContent } from "./ui/card"
 
 export function CarouselSize() {
     const plugin = useRef(
@@ -21,6 +20,7 @@ export function CarouselSize() {
             opts={{ loop: true, align: "center" }}
             plugins={[plugin.current]}
             className="w-[60vw]"
+            dir="ltr"
         >
             <CarouselContent>
                 {Array.from({ length: 3 }).map((_, index) => (
