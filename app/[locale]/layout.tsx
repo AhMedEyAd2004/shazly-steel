@@ -1,4 +1,5 @@
 import "@/app/globals.css";
+import { ScrollNavbar } from "@/components/translateOnScroll";
 import { Button } from "@/components/ui/button";
 import { metadataAR, metadataEN } from "@/utils/metadata";
 import { Noto_Sans_Arabic } from 'next/font/google'
@@ -52,13 +53,13 @@ export default async function RootLayout({
       <body
         className={`${noto.variable} ${khebrat.variable} font-khebrat antialiased`}
       >
-        <div className="fixed top-10 left-10 z-99">
+        <ScrollNavbar className="fixed top-10 left-10 z-99 transition-transform duration-500">
           <Button asChild variant={'outline'} size={'icon-lg'}>
             <Link scroll={false} href={locale === "en" ? "/ar" : "/en"} className="bg-black text-xl text-white  px-8 py-3 rounded-xl">
               {locale === "en" ? "العربية" : "English"}
             </Link>
           </Button>
-        </div>
+        </ScrollNavbar>
         {children}
       </body>
     </html >

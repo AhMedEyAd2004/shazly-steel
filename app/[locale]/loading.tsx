@@ -1,7 +1,7 @@
 
 export default function Loading() {
     return (
-        <div className="min-h-dvh min-w-screen bg-black flex justify-center items-center">
+        <div className="min-h-dvh min-w-screen bg-black flex flex-col justify-center items-center">
             <Logo />
             <svg className="invert-100" width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <style>{`
