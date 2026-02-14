@@ -21,7 +21,7 @@ export const metadataEN: Metadata = {
     title: "El Shazly Reinforcement Steel – Authorized Distributor in Egypt",
     description:
       "Follow steel prices in real time from a trusted distributor. High-quality reinforcement steel with reliable delivery since 2006.",
-    url: "https://www.example.com",
+    url: "https://shazly-steel.vercel.app/",
     siteName: "El Shazly Reinforcement Steel",
     images: [
       {
@@ -54,7 +54,7 @@ export const metadataAR: Metadata = {
     title: "الشاذلي لحديد التسليح – موزع معتمد للحديد في مصر",
     description:
       "تابع سعر الحديد لحظة بلحظة من موزع موثوق. حديد تسليح عالي الجودة مع التزام بالتوريد منذ 2006.",
-    url: "https://www.example.com",
+    url: "https://shazly-steel.vercel.app/",
     siteName: "الشاذلي لحديد التسليح",
     images: [
       {
