@@ -29,7 +29,7 @@ export const metadataEN: Metadata = {
     siteName: "El Shazly Reinforcement Steel",
     images: [
       {
-        url: "/phone-mockup-1.png",
+        url: "/metaData-phone-mockup.jpg",
         width: 1200,
         height: 630,
         alt: "El Shazly Reinforcement Steel",
@@ -45,7 +45,7 @@ export const metadataEN: Metadata = {
       "El Shazly Reinforcement Steel – Authorized Steel Distributor in Egypt",
     description:
       "Stay updated with steel prices in real time from a trusted distributor since 2006.",
-    images: ["/phone-mockup-1.png"],
+    images: ["/metaData-phone-mockup.jpg"],
   },
 };
 
@@ -74,7 +74,7 @@ export const metadataAR: Metadata = {
     siteName: "الشاذلي لحديد التسليح",
     images: [
       {
-        url: "/phone-mockup-1.png",
+        url: "/metaData-phone-mockup.jpg",
         width: 1200,
         height: 630,
         alt: "الشاذلي لحديد التسليح",
@@ -88,6 +88,6 @@ export const metadataAR: Metadata = {
     card: "summary_large_image",
     title: "الشاذلي لحديد التسليح – موزع معتمد للحديد في مصر",
     description: "تابع سعر الحديد لحظة بلحظة من موزع موثوق منذ 2006.",
-    images: ["/phone-mockup-1.png"],
+    images: ["/metaData-phone-mockup.jpg"],
   },
 };
