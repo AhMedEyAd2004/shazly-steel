@@ -1,7 +1,10 @@
-// metadata.ts
 import type { Metadata } from "next";
 
+const baseUrl = new URL("https://shazly-steel.vercel.app");
+
 export const metadataEN: Metadata = {
+  metadataBase: baseUrl,
+
   title:
     "El Shazly Reinforcement Steel – Authorized Steel Distributor in Egypt",
   description:
@@ -17,11 +20,12 @@ export const metadataEN: Metadata = {
   ],
   authors: [{ name: "El Shazly Reinforcement Steel" }],
   creator: "El Shazly Reinforcement Steel",
+
   openGraph: {
     title: "El Shazly Reinforcement Steel – Authorized Distributor in Egypt",
     description:
       "Follow steel prices in real time from a trusted distributor. High-quality reinforcement steel with reliable delivery since 2006.",
-    url: "https://shazly-steel.vercel.app/",
+    url: "/",
     siteName: "El Shazly Reinforcement Steel",
     images: [
       {
@@ -34,9 +38,20 @@ export const metadataEN: Metadata = {
     locale: "en_US",
     type: "website",
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "El Shazly Reinforcement Steel – Authorized Steel Distributor in Egypt",
+    description:
+      "Stay updated with steel prices in real time from a trusted distributor since 2006.",
+    images: ["/phone-mockup-1.png"],
+  },
 };
 
 export const metadataAR: Metadata = {
+  metadataBase: baseUrl,
+
   title: "الشاذلي لحديد التسليح – موزع معتمد للحديد في مصر",
   description:
     "تابع سعر الحديد لحظة بلحظة. الشاذلي لحديد التسليح، منذ 2006، يوفر حديدًا عالي الجودة من كبرى مصانع الحديد في مصر، مع التزام بالتوريد وخدمة موثوقة.",
@@ -50,11 +65,12 @@ export const metadataAR: Metadata = {
   ],
   authors: [{ name: "الشاذلي لحديد التسليح" }],
   creator: "الشاذلي لحديد التسليح",
+
   openGraph: {
     title: "الشاذلي لحديد التسليح – موزع معتمد للحديد في مصر",
     description:
       "تابع سعر الحديد لحظة بلحظة من موزع موثوق. حديد تسليح عالي الجودة مع التزام بالتوريد منذ 2006.",
-    url: "https://shazly-steel.vercel.app/",
+    url: "/",
     siteName: "الشاذلي لحديد التسليح",
     images: [
       {
@@ -66,5 +82,12 @@ export const metadataAR: Metadata = {
     ],
     locale: "ar_EG",
     type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "الشاذلي لحديد التسليح – موزع معتمد للحديد في مصر",
+    description: "تابع سعر الحديد لحظة بلحظة من موزع موثوق منذ 2006.",
+    images: ["/phone-mockup-1.png"],
   },
 };
